@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, AndroidInternetWorkshopActivity!</string>
+    <string name="app_name">AndroidInternetWorkshop</string>
+    <string name="dep">Enter department name:</string>
+
+    <string name="confirm">Find Classes</string>
+</resources>

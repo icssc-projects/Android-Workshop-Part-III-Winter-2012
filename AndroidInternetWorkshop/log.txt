@@ -1,0 +1,21 @@
+02-21 08:22:16.688: E/AndroidRuntime(537): java.lang.RuntimeException: Unable to start activity ComponentInfo{edu.uci.ics.icssc.projects.qsadiq/edu.uci.ics.icssc.projects.qsadiq.ClassList}: java.lang.NullPointerException
+02-21 08:22:16.688: E/AndroidRuntime(537): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2663)
+02-21 08:22:16.688: E/AndroidRuntime(537): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2679)
+02-21 08:22:16.688: E/AndroidRuntime(537): 	at android.app.ActivityThread.access$2300(ActivityThread.java:125)
+02-21 08:22:16.688: E/AndroidRuntime(537): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2033)
+02-21 08:22:16.688: E/AndroidRuntime(537): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+02-21 08:22:16.688: E/AndroidRuntime(537): 	at android.os.Looper.loop(Looper.java:123)
+02-21 08:22:16.688: E/AndroidRuntime(537): 	at android.app.ActivityThread.main(ActivityThread.java:4627)
+02-21 08:22:16.688: E/AndroidRuntime(537): 	at java.lang.reflect.Method.invokeNative(Native Method)
+02-21 08:22:16.688: E/AndroidRuntime(537): 	at java.lang.reflect.Method.invoke(Method.java:521)
+02-21 08:22:16.688: E/AndroidRuntime(537): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:868)
+02-21 08:22:16.688: E/AndroidRuntime(537): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:626)
+02-21 08:22:16.688: E/AndroidRuntime(537): 	at dalvik.system.NativeStart.main(Native Method)
+02-21 08:22:16.688: E/AndroidRuntime(537): Caused by: java.lang.NullPointerException
+02-21 08:22:16.688: E/AndroidRuntime(537): 	at java.util.Arrays$ArrayList.<init>(Arrays.java:49)
+02-21 08:22:16.688: E/AndroidRuntime(537): 	at java.util.Arrays.asList(Arrays.java:171)
+02-21 08:22:16.688: E/AndroidRuntime(537): 	at android.widget.ArrayAdapter.<init>(ArrayAdapter.java:125)
+02-21 08:22:16.688: E/AndroidRuntime(537): 	at edu.uci.ics.icssc.projects.qsadiq.ClassList.onCreate(ClassList.java:19)
+02-21 08:22:16.688: E/AndroidRuntime(537): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1047)
+02-21 08:22:16.688: E/AndroidRuntime(537): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2627)
+02-21 08:22:16.688: E/AndroidRuntime(537): 	... 11 more
